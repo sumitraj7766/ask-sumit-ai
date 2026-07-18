@@ -17,6 +17,10 @@ type Conversation = {
   title: string;
 };
 
+// Speech Recognition types (SpeechRecognition, SpeechRecognitionEvent, and
+// window.SpeechRecognition / window.webkitSpeechRecognition) are already
+// declared globally in types/speech.d.ts — no need to redeclare them here.
+
 const SUGGESTIONS = [
   "Who is Sumit?",
   "What are Sumit's skills?",
@@ -114,19 +118,12 @@ export default function DashboardPage() {
     }
   }, []);
 
-  const initializeDashboard = async () => {
-  await loadChatHistory();
-  await loadConversations();
-};
-
-useEffect(() => {
-  const initializeDashboard = async () => {
-    await loadChatHistory();
-    await loadConversations();
-  };
-
-  initializeDashboard();
-}, []);
+  useEffect(() => {
+    void (async () => {
+      await loadChatHistory();
+      await loadConversations();
+    })();
+  }, [loadChatHistory, loadConversations]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -262,7 +259,7 @@ useEffect(() => {
 
       await streamReply(
         res,
-        () => {},
+        () => { },
         (text) =>
           setMessages((prev) =>
             prev.map((msg, i) => (i === index ? { ...msg, text } : msg))
@@ -397,15 +394,15 @@ useEffect(() => {
   };
 
   const startListening = () => {
-    const SpeechRecognition =
+    const SpeechRecognitionCtor =
       window.SpeechRecognition || window.webkitSpeechRecognition;
 
-    if (!SpeechRecognition) {
+    if (!SpeechRecognitionCtor) {
       alert("Speech Recognition is not supported in this browser.");
       return;
     }
 
-    const recognition = new SpeechRecognition();
+    const recognition = new SpeechRecognitionCtor();
     recognition.lang = language;
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
@@ -413,8 +410,8 @@ useEffect(() => {
     setIsListening(true);
     recognition.start();
 
-    recognition.onresult = (event: Event) => {
-      const transcript = (event as SpeechRecognitionEvent).results[0][0].transcript;
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
       setMessage(transcript);
     };
 
@@ -665,9 +662,8 @@ function Sidebar({
           <button
             type="button"
             onClick={onToggleAdminMode}
-            className={`px-4 py-2 rounded-lg text-sm font-medium ${
-              isAdminMode ? "bg-yellow-500 text-black" : "bg-zinc-800 text-gray-300"
-            }`}
+            className={`px-4 py-2 rounded-lg text-sm font-medium ${isAdminMode ? "bg-yellow-500 text-black" : "bg-zinc-800 text-gray-300"
+              }`}
           >
             {isAdminMode ? "Enabled" : "Disabled"}
           </button>
@@ -768,11 +764,10 @@ function ChatPanel({
             className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
           >
             <div
-              className={`max-w-[85%] rounded-xl px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap ${
-                msg.role === "user"
+              className={`max-w-[85%] rounded-xl px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap ${msg.role === "user"
                   ? "bg-yellow-500 text-black"
                   : "bg-zinc-900 text-gray-200 border border-zinc-800"
-              }`}
+                }`}
             >
               {msg.role === "ai" ? (
                 <AiMessage
@@ -912,9 +907,8 @@ function Composer({
           type="button"
           onClick={onStartListening}
           disabled={isListening}
-          className={`px-4 py-3 rounded-lg ${
-            isListening ? "bg-red-600" : "bg-zinc-800 hover:bg-zinc-700"
-          }`}
+          className={`px-4 py-3 rounded-lg ${isListening ? "bg-red-600" : "bg-zinc-800 hover:bg-zinc-700"
+            }`}
         >
           {isListening ? "🎙️" : "🎤"}
         </button>
