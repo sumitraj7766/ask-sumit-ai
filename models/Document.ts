@@ -32,6 +32,7 @@ const DocumentSchema = new Schema(
       type: String,
       enum: ["processing", "ready"],
       default: "processing",
+      status: "processing",
     },
   },
   {
