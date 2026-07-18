@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 
 import { connectDB } from "@/lib/mongodb";
 import Document from "@/models/Document";
-import pdfParse from "pdf-parse-new";
+import pdfParse from "pdf-parse";
 
 console.log("STEP 1: Request received");
 
