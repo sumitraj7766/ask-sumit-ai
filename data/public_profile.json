@@ -1,0 +1,481 @@
+{
+  "name": "Sumit Kumar",
+  "short_intro": "Sumit Kumar is a B.Tech Electrical and Electronics Engineering student at LNJPIT Chhapra, Bihar. He is interested in AI, Robotics, IoT, Embedded Systems, Full Stack Development, PCB Design, Cybersecurity, and Agentic AI.",
+  "role": "B.Tech EEE Student | AI & Robotics Enthusiast | Full Stack Developer | Embedded Systems Learner",
+  "college": "LNJPIT Chhapra",
+  "branch": "Electrical and Electronics Engineering",
+  "location": "Bihar, India",
+  "public_location": "Bihar, India",
+  "github": "https://github.com/sumitraj7766",
+  "portfolio": "https://sumitraj7766.github.io/portfolio/",
+  "linkedin": "https://www.linkedin.com/in/shreyansh90/",
+  "email_public": "sk681172112209@gmail.com",
+
+  "career_goal": "To become an AI and Robotics Engineer and build real-world intelligent systems using AI, embedded systems, IoT, robotics, and full-stack development.",
+
+  
+  "skills": {
+    "ai_ml": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "YOLO",
+      "TensorFlow",
+      "Python",
+      "Model Training",
+      "Image Classification"
+    ],
+    "agentic_ai": [
+      "AI Agents",
+      "Agentic AI",
+      "RAG",
+      "Personal AI Assistant",
+      "LLM Applications",
+      "Prompt Engineering"
+    ],
+    "web_development": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "Tailwind CSS"
+    ],
+    "embedded_iot": [
+      "Arduino",
+      "ESP32",
+      "ESP8266 NodeMCU",
+      "Sensors",
+      "Firebase IoT",
+      "WiFi-based IoT Projects",
+      "Embedded C",
+      "Microcontrollers"
+    ],
+    "robotics": [
+      "ROS",
+      "ROS2",
+      "RViz",
+      "SLAM",
+      "Navigation",
+      "Drone Basics",
+      "RC Plane Basics",
+      "Robot Simulation"
+    ],
+    "electronics_pcb": [
+      "KiCad",
+      "PCB Design",
+      "Power Electronics",
+      "AC to DC Converter",
+      "Circuit Design",
+      "Schematic Design"
+    ],
+    "cybersecurity": [
+      "OWASP Top 10",
+      "Burp Suite",
+      "Web Security Basics",
+      "SQL Injection Basics",
+      "CSRF",
+      "Security Logging",
+      "Kali Linux Basics"
+    ]
+  },
+
+  "projects": [
+    {
+      "name": "Medical AI Assistant",
+      "category": "AI + Full Stack",
+      "description": "A medical-focused AI assistant built using Next.js and AI APIs to answer health-related questions in a safe and guided way.",
+      "tech_stack": ["Next.js", "TypeScript", "Tailwind CSS", "Groq/Gemini API"],
+      "status": "MVP built"
+    },
+    {
+      "name": "AC to DC Converter PCB",
+      "category": "PCB Design",
+      "description": "A KiCad-based PCB design project for converting AC input into filtered DC output using rectifier and filtering circuitry.",
+      "tech_stack": ["KiCad", "PCB Design", "Power Electronics"],
+      "github": "https://github.com/sumitraj7766/AC-TO-DC-CONVERTER-"
+    },
+    {
+      "name": "Smart Security IoT System",
+      "category": "IoT + Embedded",
+      "description": "A NodeMCU ESP8266-based security system using PIR sensor, IR sensor, LED indication, Firebase database, and local IP monitoring.",
+      "tech_stack": ["NodeMCU", "ESP8266", "Firebase", "PIR Sensor", "IR Sensor"]
+    },
+    {
+      "name": "AI-Based Gender Detection Drone",
+      "category": "AI + Embedded + Drone",
+      "description": "A project concept where ESP32-S3 Camera runs a lightweight AI model and sends detection results to a phone while the drone is flown using FlySky transmitter.",
+      "tech_stack": ["ESP32-S3 Camera", "TensorFlow Lite", "TinyML", "Drone", "WiFi"]
+    },
+    {
+      "name": "TurtleBot3 ROS2 Simulation",
+      "category": "Robotics",
+      "description": "A ROS2 simulation project using TurtleBot3, RViz, and teleoperation for learning robot navigation and visualization.",
+      "tech_stack": ["ROS2", "RViz", "TurtleBot3", "Linux"]
+    },
+    
+    {
+  "name": "Sumit Kumar",
+  "headline": "AI & Robotics Engineer Aspirant | Full Stack Developer | AI/ML Enthusiast",
+  "role": "B.Tech EEE Student",
+  
+
+  "education": {
+    "college": "Loknayak Jai Prakash Institute of Technology (LNJPIT), Chhapra",
+    "degree": "Bachelor of Technology",
+    "branch": "Electrical and Electronics Engineering",
+    "duration": "2025-2029"
+  },
+
+  "additional_education": {
+    "program": "BS Data Science",
+    "institute": "IIT Madras"
+  },
+
+  "location": "Bihar, India",
+
+  "career_goal": "To become an AI and Robotics Engineer, build innovative AI-powered products, and contribute to the future of intelligent systems and robotics.",
+
+  "links": {
+    "github": "https://github.com/sumitraj7766",
+    "portfolio": "https://sumitraj7766.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/shreyansh90/"
+  },
+
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "C",
+      "JavaScript",
+      "TypeScript",
+      "SQL"
+    ],
+
+    "ai_ml": [
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Agentic AI",
+      "AI Agents",
+      "Natural Language Processing",
+      "Data Science",
+      "Predictive Analytics"
+    ],
+
+    "full_stack_development": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "FastAPI",
+      "REST APIs",
+      "Authentication Systems"
+    ],
+
+    "robotics_and_iot": [
+      "ROS2",
+      "Gazebo",
+      "RViz",
+      "IoT",
+      "Embedded Systems",
+      "ESP32",
+      "Arduino",
+      "STM32"
+    ],
+
+    "electronics": [
+      "PCB Design",
+      "KiCad",
+      "Power Electronics",
+      "Control Systems",
+      "VLSI",
+      "EV Systems",
+      "Circuit Design"
+    ],
+
+    "cybersecurity": [
+      "Web Security",
+      "CTF Challenges",
+      "OWASP Top 10",
+      "Linux Fundamentals"
+    ],
+
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Figma",
+      "Canva",
+      "MATLAB",
+      "VS Code"
+    ]
+  },
+
+  "domains_of_interest": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Agentic AI",
+    "Embedded Systems",
+    "IoT",
+    "Computer Vision",
+    "Power Electronics",
+    "Cybersecurity",
+    "VLSI",
+    "Full Stack Development"
+  ],
+
+  "startup": {
+    "name": "MediMind AI",
+    "role": "Founder & AI Developer",
+    "description": "AI-powered medical assistant platform designed to provide intelligent healthcare guidance and multilingual healthcare support."
+  },
+
+  "projects": [
+    {
+      "name": "MediMind AI",
+      "category": "AI Healthcare",
+      "status": "Live"
+    },
+    {
+      "name": "AskSumit AI",
+      "category": "Personal AI Agent",
+      "status": "In Development"
+    },
+    {
+      "name": "IoT Smart Grid Monitoring System",
+      "category": "IoT",
+      "status": "Completed"
+    },
+    {
+      "name": "Power Consumption Analytics",
+      "category": "Data Analytics",
+      "status": "Completed"
+    },
+    {
+      "name": "AI Gender Detection Drone",
+      "category": "Computer Vision",
+      "status": "In Development"
+    },
+    {
+      "name": "AC to DC Converter PCB",
+      "category": "PCB Design",
+      "status": "Completed"
+    },
+    {
+      "name": "ResumeXPro",
+      "category": "Full Stack Development",
+      "status": "Completed"
+    },
+    {
+      "name": "ROS2 TurtleBot Simulation",
+      "category": "Robotics",
+      "status": "Completed"
+    },
+    {
+      "name": "Medical AI Assistant",
+      "category": "AI",
+      "status": "Live"
+    }
+  ],
+
+  "internships": [
+    {
+      "organization": "VLED Lab, IIT Ropar",
+      "role": "Summer Intern",
+      "year": "2026"
+    },
+    {
+      "organization": "IIT Guwahati",
+      "role": "AI/ML Internship Bootcamp",
+      "year": "2026"
+    },
+    {
+      "organization": "IIIT Bhagalpur",
+      "role": "Summer Intern",
+      "year": "2026"
+    },
+    {
+      "organization": "Cognifyz Technologies",
+      "role": "Full Stack Development Intern",
+      "year": "2026"
+    }
+  ],
+
+  "leadership_roles": [
+    {
+      "organization": "MediMind AI",
+      "role": "Founder"
+    },
+    {
+      "organization": "LNJPIT",
+      "role": "Campus Representative"
+    },
+    {
+      "organization": "Internshala",
+      "role": "Campus Ambassador"
+    },
+    {
+      "organization": "eDC IIT Delhi",
+      "role": "Campus Ambassador"
+    },
+    {
+      "organization": "TRYST IIT Delhi",
+      "role": "Campus Ambassador"
+    }
+  ],
+
+  "achievements": [
+    "Circuitron Winner",
+    "Startup Pitch Runner-Up",
+    "National Finalist Top 150 in Cloud Innovation Challenge",
+    "Internal Smart India Hackathon Rank 3",
+    "Bihar Youth Festival Science & Technology Participant",
+    "Selected for IIT Ropar VLED Internship",
+    "Selected for IIIT Bhagalpur Summer Internship"
+  ],
+
+  "hackathons_and_events": [
+    "Cloud Innovation Challenge",
+    "Hacksagon",
+    "Protex Hack-2-Win",
+    "Build with AI 2026",
+    "SHELL CTF",
+    "CodeFest",
+    "Kshitij",
+    "LogicRush Innovation Challenge"
+  ],
+
+  "certifications": [
+    "Google Cloud Skills Boost",
+    "CodeFest Participation Certificate",
+    "LogicRush Participation Certificate",
+    "Kshitij Participation Certificate",
+    "CAD Battle Participation Certificate",
+    "Hackathon Participation Certificates"
+  ],
+
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+
+  "favorite_technologies": [
+    "Python",
+    "Next.js",
+    "FastAPI",
+    "MongoDB",
+    "ROS2",
+    "ESP32",
+    "TensorFlow",
+    "PyTorch",
+    "GitHub"
+  ],
+
+  "strengths": [
+    "Fast Learner",
+    "Problem Solver",
+    "Builder Mindset",
+    "Leadership",
+    "Team Collaboration",
+    "Innovation",
+    "Self-Learning"
+  ],
+
+  "future_goals": [
+    "Become an AI Engineer",
+    "Become a Robotics Engineer",
+    "Build a successful AI startup",
+    "Contribute to Agentic AI systems",
+    "Develop intelligent robotics products",
+    "Work on cutting-edge AI research"
+  ],
+
+  "about": "Sumit Kumar is a technology enthusiast, founder, builder, and aspiring AI & Robotics Engineer focused on solving real-world problems through Artificial Intelligence, Robotics, Embedded Systems, IoT, and Full Stack Development."
+}
+    
+
+
+  ],
+
+  "achievements": [
+    "Runner-up in Startup Pitch at IGNIS’26, LNJPIT",
+    "1st position in Circuitron at IGNIS’26, LNJPIT",
+    "RC car/drone coordinator at college event",
+    "Internal Smart India Hackathon rank 3",
+    "Completed Google Cloud Skills Boost badge"
+  ],
+
+  "interests": [
+    "AI and Robotics",
+    "Agentic AI",
+    "AI Agents",
+    "Embedded Systems",
+    "IoT",
+    "PCB Design",
+    "Power Electronics",
+    "EV Technology",
+    "VLSI and Semiconductors",
+    "Cybersecurity",
+    "Full Stack Development"
+  ],
+
+  "profile_answers": {
+    "who_is_sumit": "Sumit Kumar is a B.Tech Electrical and Electronics Engineering student at LNJPIT Chhapra, Bihar. He is passionate about AI, Robotics, Embedded Systems, IoT, Full Stack Development, PCB Design, Cybersecurity, and Agentic AI.",
+    "what_is_sumit_goal": "Sumit's career goal is to become an AI and Robotics Engineer and build intelligent real-world systems.",
+    "what_can_sumit_build": "Sumit can build AI applications, IoT systems, embedded projects, PCB designs, full-stack web applications, robotics simulations, and personal AI agents.",
+    "why_hire_sumit": "Sumit is a multidisciplinary learner who combines electrical engineering with AI, robotics, embedded systems, and software development. He has practical experience with projects across AI, IoT, PCB, and full-stack development."
+  },
+
+  "sample_questions": [
+    "Who is Sumit?",
+    "What are Sumit's skills?",
+    "What is Sumit's career goal?",
+    "Which college does Sumit study in?",
+    "Which branch is Sumit from?",
+    "What projects has Sumit built?",
+    "Show Sumit's GitHub link.",
+    "Show Sumit's portfolio link.",
+    "Write a resume summary for Sumit.",
+    "Write a LinkedIn post about Sumit.",
+    "Why should someone hire Sumit?",
+    "What AI projects has Sumit made?",
+    "What IoT projects has Sumit built?",
+    "What robotics skills does Sumit know?",
+    "Suggest a project for Sumit."
+  ],
+
+  "privacy_policy": {
+    "public_allowed": [
+      "skills",
+      "projects",
+      "college",
+      "branch",
+      "public location",
+      "GitHub link",
+      "portfolio link",
+      "LinkedIn link",
+      "achievements",
+      "career goal",
+      "resume summary"
+    ],
+    "private_blocked": [
+      "exact home address",
+      "phone number",
+      "father name",
+      "mother name",
+      "brother name",
+      "family details",
+      "Aadhaar details",
+      "personal documents",
+      "passwords",
+      "private IDs"
+    ],
+    "refusal_message": "Sorry, I cannot share Sumit's private personal information. I can only share public profile information such as skills, projects, achievements, college, GitHub, portfolio, and career goals."
+  }
+}

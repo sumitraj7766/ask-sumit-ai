@@ -1,0 +1,78 @@
+{
+  "personal_information": {
+    "full_name": "Sumit Kumar",
+    "date_of_birth": "2007-07-07",
+    "gender": "Male",
+    "nationality": "Indian",
+    "sumit favorite_color": "Blue",
+    "hobbies": ["Coding", "Robotics", "AI/ML", "Gaming", "Reading"],
+    "languages_spoken": ["Hindi", "English", "Bhojpuri","learning","Japanese"],
+    "personal_summary": "Sumit Kumar is a passionate AI & Robotics Engineer aspirant and a B.Tech EEE student. He has a keen interest in coding, robotics, and AI/ML technologies. Sumit is an enthusiastic learner who enjoys exploring new technologies and applying them to real-world problems."
+    
+  },
+
+  "family_information": {
+  "father_occupation": "Private job",
+  "father_mobile": "9631722379",
+  "father_income/month": "30000",
+  
+  "father_name": "Sanjay mandal",
+  "brother_occupation": "Student",
+  "mother_occupation": "Housewife",
+  "mother_name": "deji devi ",
+  "mother_mobile": "9801158137",
+  "brother_name": "Suman Kumar",
+  "brother_studies": "Class-10th from bihar board",
+  "brother_future": "He will prepare for Neet after completing his 10th and he want to become a doctor in future.",
+  "family_summary": "Sumit's father is a farmer, his mother is a housewife, and he has one brother named Suman Kumar."
+},
+
+  "contact_information": {
+    "personal_email": "sumikumar7766@gmail.com",
+    "phone_number": "7766092391",
+    "alternate_phone": "9801158137"
+  },
+
+  "address_permanent": {
+    "full_address": "DIMAHA DIYARA ISMAILPUR BHAGALPUR BIHAR 853205",
+    "city": "NAUGACHIA",
+    "district": "BHAGALPUR",
+    "state": "BIHAR",
+    "postal_code": "853205"
+  },
+
+  "address_temporary":{
+    "full_address": "H-5 LNJPIT CHAPRA BIHAR - 841302",
+    "city": "CHAPRA",
+    "district": "CHAPRA",
+    "state": "BIHAR",
+    "postal_code": "841302"
+
+  },
+
+
+
+  "education_documents": {
+    "aadhaar_number": "959564088349",
+    "pan_number": "NEVER_SHARE",
+    "student_id": "25110117005",
+    "marksheets": "PRIVATE",
+    "certificates": "PRIVATE"
+  },
+
+  "accounts": {
+    "github_email": "sk681172112209@gmail.com",
+    "accounts-number": "745002010005071",
+    "bank_name": "union bank of india",
+    "ifsc_code": "UBIN0574503"
+  },
+
+  "security_rules": {
+    "share_with_public": false,
+    "share_with_admin": true
+    
+  },
+
+  "admin_access_message": "Private information is available only to sumit users.",
+  "public_access_message": "Sorry, I cannot share Sumit's private personal information."
+}
